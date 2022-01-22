@@ -1,0 +1,40 @@
+.card-layout {
+    margin: 2%;
+  }
+  .card-layout .card-child {
+    margin: 2%;
+  }
+  .card-layout .card-child .profile-img {
+    border-radius: 40px;
+    margin-right: 1.5rem;
+  }
+  .card-layout .card-child .card-body{
+    padding: 1rem 0;
+  }
+  .card-layout .card-child .post-img{
+    width: -webkit-fill-available;
+  }
+  .card-child .card-header {
+    padding: 1rem 0;
+    display: inline-flex;
+    margin: 0;
+    border-bottom: none;
+    background-color: transparent;
+  }
+  .card-child .create-post-status {
+    margin-left: 2rem;
+  }
+  .add-button {
+      width: 15%;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .card-layout .card-child .profile-img {
+      border-radius: 40px;
+      margin-right: 0.5rem;
+      width: 25%;
+    }
+    .card-layout .create-post-status .card-title, .card-layout .create-post-status .card-date{
+      font-size: 1em;
+    }
+  }

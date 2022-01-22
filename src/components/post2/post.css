@@ -1,0 +1,47 @@
+.card-layout {
+  margin: 2%;
+}
+.card-layout .card-child {
+  margin: 2%;
+}
+.card-layout .card-child .profile-img {
+  border-radius: 40px;
+  margin-right: 1.5rem;
+}
+.card-layout .card-child .card-body {
+  padding: 1rem 0;
+}
+.card-layout .card-child .post-img {
+  width: -webkit-fill-available;
+}
+.card-child .card-header {
+  padding: 1rem 0;
+  display: inline-flex;
+  margin: 0;
+  border-bottom: none;
+  background-color: transparent;
+}
+.card-child .post-pf-status {
+  margin: auto;
+}
+.menu-img {
+  width: 22px;
+}
+.post-option {
+  position: absolute;
+  right: 3%;
+}
+@media only screen and (max-width: 600px) {
+  .card-layout .card-child .profile-img {
+    border-radius: 40px;
+    margin-right: 0.5rem;
+    width: 25%;
+  }
+  .card-layout .post-pf-status .card-title,
+  .card-layout .post-pf-status .card-date {
+    font-size: 1em;
+  }
+  .menu-img {
+    width: 18px;
+  }
+}

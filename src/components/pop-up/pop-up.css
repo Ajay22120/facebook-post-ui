@@ -1,0 +1,153 @@
+.card-layout {
+  margin: 2%;
+}
+.card-layout .card-child {
+  margin: 2%;
+}
+.card-layout .card-child .profile-img {
+  border-radius: 40px;
+  margin-right: 1.5rem;
+}
+.card-layout .card-child .card-body {
+  padding: 1rem 0;
+}
+.card-layout .card-child .post-img {
+  width: -webkit-fill-available;
+}
+.card-child .card-header {
+  padding: 1rem 0;
+  display: inline-flex;
+  margin: 0;
+  border-bottom: none;
+  background-color: transparent;
+}
+.card-child .post-pf-status {
+  margin: auto;
+}
+.menu-img {
+  width: 22px;
+}
+.post-option {
+  position: absolute;
+  right: 3%;
+}
+.modal-menus {
+  font-size: 0.6em;
+  margin: 0.1rem 0.5rem;
+}
+#body {
+  border-radius: 3px;
+}
+.imtcontainer {
+  width: 100%;
+  /*min-height: 71px;*/
+  border: 1px solid transparent;
+  border-radius: 3px;
+  background-color: #fff;
+  display: flex;
+}
+
+.imtcontainer > .img {
+  float: left;
+  width: 40px;
+  height: 40px;
+  background-color: #eee;
+  margin: 8px 1px 0 8px;
+  display: block;
+  border: 1px solid transparent;
+}
+.imtcontainer > .img img {
+  width: 100%;
+  height: 100%;
+}
+
+.imtcontainer > .textarea {
+  display: inline-block;
+  background-color: #fff;
+  width: 90%;
+}
+.imtcontainer > .textarea textarea {
+  display: flex;
+  margin-top: 8px;
+  width: 100%;
+  /*min-height: 90%;*/
+  text-align: left;
+  padding: 10px;
+  border: none;
+  resize: none;
+  font-size: 16px;
+}
+.imtcontainer > .textarea textarea:focus {
+  border: none;
+  outline: none;
+}
+
+.loginBtn {
+  box-sizing: border-box;
+  position: relative;
+  /* width: 13em;  - apply for fixed size */
+  margin: 0.2em;
+  padding: 0 15px 0 46px;
+  border: none;
+  text-align: left;
+  line-height: 34px;
+  white-space: nowrap;
+  border-radius: 0.2em;
+  font-size: 16px;
+  color: #FFF;
+}
+.loginBtn:before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 34px;
+  height: 100%;
+}
+.loginBtn:focus {
+  outline: none;
+}
+.loginBtn:active {
+  box-shadow: inset 0 0 0 32px rgba(0,0,0,0.1);
+}
+
+
+
+.loginBtn--facebook {
+  background-color: #d3d3d352;
+  
+  text-shadow: 0 -1px 0 black;
+  color: black;
+  width: 10rem;
+  height: 2rem;
+}
+.loginBtn--facebook:before {
+  border-right: #d3d3d352 1px solid;
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/14082/icon_facebook.png') 6px 6px no-repeat;
+}
+.loginBtn--facebook:hover,
+.loginBtn--facebook:focus {
+  background-color: #d3d3d352;
+}
+.modal-buttons{
+  display: inline-block;
+  padding: 10px;
+}
+.form-control{
+  width: 16rem;
+}
+@media only screen and (max-width: 600px) {
+  .card-layout .card-child .profile-img {
+    border-radius: 40px;
+    margin-right: 0.5rem;
+    width: 25%;
+  }
+  .card-layout .post-pf-status .card-title,
+  .card-layout .post-pf-status .card-date {
+    font-size: 1em;
+  }
+  .menu-img {
+    width: 18px;
+  }
+}

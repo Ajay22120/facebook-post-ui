@@ -40,7 +40,7 @@ const Create = () => {
             <div className="modal-body clicked">
               <div class="imtcontainer area">
                 <div class="img">
-                  <img src="http://themarketmogul.com/wp-content/uploads/avatars/3321/cb72c2d6008ea815d74b7f27d1131a26-bpfull-180x180.jpg" alt="image" />
+                  <img src="http://themarketmogul.com/wp-content/uploads/avatars/3321/cb72c2d6008ea815d74b7f27d1131a26-bpfull-180x180.jpg" alt="dummy-img" />
                 </div>
                 <div class="textarea">
                   <textarea

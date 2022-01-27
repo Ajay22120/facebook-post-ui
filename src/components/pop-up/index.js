@@ -1,10 +1,9 @@
 import React from "react";
 import "./pop-up.css";
-import profile from "../../assets/Group1.png";
+
 
 const Create = () => {
-  const postImg =
-    "https://images.unsplash.com/photo-1511367461989-f85a21fda167?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZmlsZXxlbnwwfHwwfHw%3D&w=1000&q=80";
+ 
   return (
     <React.Fragment>
       <div
@@ -41,7 +40,7 @@ const Create = () => {
             <div className="modal-body clicked">
               <div class="imtcontainer area">
                 <div class="img">
-                  <img src="http://themarketmogul.com/wp-content/uploads/avatars/3321/cb72c2d6008ea815d74b7f27d1131a26-bpfull-180x180.jpg" />
+                  <img src="http://themarketmogul.com/wp-content/uploads/avatars/3321/cb72c2d6008ea815d74b7f27d1131a26-bpfull-180x180.jpg" alt="image" />
                 </div>
                 <div class="textarea">
                   <textarea

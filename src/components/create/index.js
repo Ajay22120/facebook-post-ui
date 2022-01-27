@@ -3,8 +3,7 @@ import "./create.css";
 import AddImage from "../../assets/plus.png";
 
 const Create = () => {
-  const postImg =
-    "https://images.unsplash.com/photo-1511367461989-f85a21fda167?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZmlsZXxlbnwwfHwwfHw%3D&w=1000&q=80";
+ 
   return (
     <React.Fragment>
       <div className="card card-layout">
